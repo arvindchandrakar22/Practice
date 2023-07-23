@@ -1,0 +1,29 @@
+package com.insta.instagramclone_backendapi.model;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="users")
+public class User {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private Integer id;
+	
+	private String username;
+	private String name;
+	private String email;
+	private String mobile;
+	private String website;
+	private String bio;
+	private String gender;
+	private String image;
+	
+	private String password;
+	
+	private set<> follower = new HashSet<>();
+}

@@ -1,0 +1,5 @@
+package com.insta.instagramclone_backendapi.model;
+
+public class User {
+
+}
