@@ -16,7 +16,7 @@ public class BinarySearch {
 	
 	public static void binarySearchUsingInbuildMethods(int[] a)
 	{
-		//here we will use Arrays.binarySearch()
+		//here we will use Arrays.binarySearch() by Arvind
 		
 		System.out.println(Arrays.binarySearch(a, 5));
 		
